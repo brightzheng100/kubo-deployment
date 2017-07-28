@@ -36,6 +36,8 @@ vm_types:
     ram: 8192
     cpu: 1
     disk: 102400
+    vmx_options:
+      disk.enableUUID: "1"
 
 disk_types:
 - name: 10240
